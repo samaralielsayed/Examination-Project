@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.alert-error {
+  max-width: 600px;
+
+  background-color: #ff0000c7;
+  color: #fff;
+  padding: 13px 15px;
+  border: none;
+  border-radius: 10px;
+  display: none;
+  position: relative;
+  left:600px;
+  margin-top: 0.5%;
+}
+.margin{
+  margin-left: 135px;
+}
+.margin-icon {
+  margin-left: 422px;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgb(157, 181, 245),
+    #f1efef,
+    rgb(157, 181, 245)
+  );
+  margin: 0;
+  padding: 0;
+}
+.margin {
+  margin-bottom: 2px;
+}
+h1 {
+  /* color: transparent; */
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* background-color: #3e3ef1; */
+  background-clip: text;
+}
+
+#registrationForm {
+  max-width: 600px;
+  margin: 10px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  left: 600px;
+  top: 50px;
+  box-shadow: 0 0 10px rgba(7, 7, 7, 0.5);
+  animation: slideIn 2s ease-out; 
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50px;
+  animation: slideInFromLeft 2s ease-out;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #70acf0;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+button {
+  background-color: #3e3ef1;
+  color: #fff;
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #0529cc;
+}
+
+.error {
+  border: 2px solid #ff0000;
+}
+
+.error-message {
+  color: #ff0000c7;
+  margin-top: 1px;
+  display: none;
+  font-size: 14px;
+  position: relative;
+  bottom: 10px;
+}
+#submit,
+h1 {
+  margin: 18px 0px;
+}
+.login{
+  font-size: 14px;
+}
+.login a{
+  text-decoration: none;
+color:  #3e3ef1;
+ font-weight: bold;
+ padding-left: 5px;
+}

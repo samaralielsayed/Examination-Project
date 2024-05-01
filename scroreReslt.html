@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/scroreReslt.css">
+    <script src="js/jquery-3.7.1.js"></script>
+   
+</head>
+
+<body>
+
+    <div>
+        <p><span class="addName"></span> <span class="score"></span> <span class="happyEmoji">&#128512;</span></p>
+    </div>
+    <img src="image/5891-removebg-preview.png" alt="success">
+
+    <script>
+        $('.score').text(` ${localStorage.getItem('score')} out of ${localStorage.getItem('numberOfLength')}`);
+        $('.addName').html(`Dear ${localStorage.getItem('name')},<br>`);
+    </script>
+</body>
+
+</html>

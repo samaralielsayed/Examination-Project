@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="js/jquery-3.7.1.js"></script>
+  <link rel="stylesheet" href="css/login.css">
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <!-- <img src="imag2.svg" alt="quiz image"> -->
+    <div class="alert-error position">
+      Email or Password is not correct <i class="fa-solid fa-xmark margin-icon"></i>
+    </div>
+    <form id="registrationForm" class="position">
+      <h1>Sign In!</h1>
+      <!-- <h3>sign in!</h3> -->
+      <div class="margin">
+        <input type="text" id="email" name="email" class="checkVaildution" autocomplete="off" placeholder="E-mail">
+        <div id="emailError" class="error-message"></div>
+
+      </div>
+
+      <div class="margin">
+        <input type="password" id="password" name="password" class="checkVaildution" autocomplete="off" placeholder="password">
+        <div id="passwordError" class="error-message"></div>
+
+      </div>
+
+
+      <button>Submit</button>
+    </form>
+  </div>
+
+
+  <script src="js/login.js"></script>
+</body>
+
+</html>

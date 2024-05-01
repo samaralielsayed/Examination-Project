@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.js"></script>
+
+    <style>
+        body {
+            font-family: 'Salsa', cursive;
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            transition: background-color 0.5s ease;
+            background-image: url(image/pexels-photo-745365.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        div {
+            text-align: center;
+            transition: background-color 0.5s ease;
+        }
+        .sadEmoji {
+            font-size: 70px;
+            margin-top: 10px;
+        }
+        .sadEmojia{
+            font-size: 200px;
+            /* margin-top: 10px; */
+        }
+        p {
+            color: #e3e3e3;
+            position: absolute;
+            top: 30%;
+            right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p><span class="addName"></span> Time Out! <span class="sadEmoji">&#128577;</span></p>
+    </div>
+
+    <script>
+        $('.addName').text(localStorage.getItem('name'));
+    </script>
+</body>
+
+</html>
