@@ -59,45 +59,46 @@ let question5 = new Question("5-How Can We Include External Page Inside Our HTML
         new Answer("All Solutions Is Wrong",false)
     ]); 
   
-let question6 = new Question("6-What Is The Tag That Not Exists in HTML",
-    [new Answer("<object>",false),
-        new Answer("<basefont>",false),
-        new Answer("<abbr>",false),
-        new Answer("All Tags Is Exists in HTML",true)
-    ]);
+// let question6 = new Question("6-What Is The Tag That Not Exists in HTML",
+//     [new Answer("<object>",false),
+//         new Answer("<basefont>",false),
+//         new Answer("<abbr>",false),
+//         new Answer("All Tags Is Exists in HTML",true)
+//     ]);
    
-let question7 = new Question("7-How We Specify Document Type Of HTML5 Page",
-    [new Answer("<DOCTYPE html>",false),
-        new Answer("<DOCTYPE html5>",false),
-        new Answer("<!DOCTYPE html5>",false),
-        new Answer("<!DOCTYPE html>",true)
-    ]); 
+// let question7 = new Question("7-How We Specify Document Type Of HTML5 Page",
+//     [new Answer("<DOCTYPE html>",false),
+//         new Answer("<DOCTYPE html5>",false),
+//         new Answer("<!DOCTYPE html5>",false),
+//         new Answer("<!DOCTYPE html>",true)
+//     ]); 
    
-let question8 = new Question("8-What Is The Element Thats Not Exists in HTML5 Semantics",
-    [new Answer("<article>",false),
-        new Answer("<section>",false),
-        new Answer("<blockquote>",true),
-        new Answer("<aside>",false)
-    ]); 
+// let question8 = new Question("8-What Is The Element Thats Not Exists in HTML5 Semantics",
+//     [new Answer("<article>",false),
+//         new Answer("<section>",false),
+//         new Answer("<blockquote>",true),
+//         new Answer("<aside>",false)
+//     ]); 
   
-let question9 = new Question("9-In HTML Can We Use This Way To Add Attributes",
-    [new Answer("<div class='class-name'>",false),
-        new Answer("<div class=class-name>",false),
-        new Answer("<div class=\"class-name\">",false),
-        new Answer("All Is Right",true)
-    ]);    
+// let question9 = new Question("9-In HTML Can We Use This Way To Add Attributes",
+//     [new Answer("<div class='class-name'>",false),
+//         new Answer("<div class=class-name>",false),
+//         new Answer("<div class=\"class-name\">",false),
+//         new Answer("All Is Right",true)
+//     ]);    
             
 question1.addCorrectAnswer();
 question2.addCorrectAnswer();
 question3.addCorrectAnswer();
 question4.addCorrectAnswer();
 question5.addCorrectAnswer();
-question6.addCorrectAnswer();
-question7.addCorrectAnswer();
-question8.addCorrectAnswer();
-question9.addCorrectAnswer();
+// question6.addCorrectAnswer();
+// question7.addCorrectAnswer();
+// question8.addCorrectAnswer();
+// question9.addCorrectAnswer();
 
-let questions=[question1,question2,question3,question4,question5,question6,question7,question8,question9]
+// let questions=[question1,question2,question3,question4,question5,question6,question7,question8,question9]
+let questions=[question1,question2,question3,question4,question5]
 
 console.log(questions);
 

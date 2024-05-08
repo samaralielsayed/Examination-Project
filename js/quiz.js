@@ -207,4 +207,5 @@ $('.mark').on('click',addMark);
 // $('.submit-button').on('click',results ); 
 //  console.log(('.submit-button').click());
 
-calculateResult(60*9);
+// calculateResult(60*.2);
+calculateResult(60*5);
